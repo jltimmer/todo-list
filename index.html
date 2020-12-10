@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="main.css">
+	<title>To-Do List</title>
+</head>
+<body class="bg-light">
+	<div class="container">
+		<div class="d-flex align-items-center p-3 my-3 text-white-50 banner-bg rounded shadow-sm">
+			<h2>To-Do List</h2>
+		</div>
+		<div class="bg-white rounded shadow-sm mb-4">
+			<form class="input-group">
+				<input type="text" class="form-control" id="item-entry" placeholder="Enter an item" aria-label="New Item" aria-describedby="basic-addon1">
+				<div class="input-group-append">
+					<button class="input-group-text">Add Item</button>
+				</div>
+			</form>
+		</div>
+		<div class="my-3 p-3 bg-white rounded shadow-sm" id="todo-items">
+			<h6 class="border-bottom border-gray pb-2 mb-0">To-Do Items</h6>
+		</div>
+	</div>
+	<script src="app.js"></script>
+</body>
+</html>
